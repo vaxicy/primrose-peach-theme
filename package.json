@@ -1,0 +1,44 @@
+{
+  "name": "primrose-peach-theme",
+  "displayName": "Primrose Peach Theme",
+  "description": "A soft peach palette: white paper with primrose pink and mint in the light variant, a deep moss night in the dark one.",
+  "version": "1.0.0",
+  "publisher": "lilinhuang",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "light",
+    "dark",
+    "peach",
+    "floral"
+  ],
+  "icon": "assets/icon.png",
+  "license": "SEE LICENSE IN LICENSE",
+  "galleryBanner": {
+    "color": "#22302A",
+    "theme": "dark"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vaxicy/primrose-peach-theme"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Primrose Peach Theme Light",
+        "uiTheme": "vs",
+        "path": "./themes/primrose-peach-light-color-theme.json"
+      },
+      {
+        "label": "Primrose Peach Theme Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/primrose-peach-dark-color-theme.json"
+      }
+    ]
+  }
+}

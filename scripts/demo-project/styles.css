@@ -1,0 +1,16 @@
+:root {
+  --peach: #fcd6b4;
+  --primrose: #ffacbd;
+  --butter: #fbf3c0;
+  --mint: #d3f4f3;
+  --leaf: #b1d29b;
+  --ink: #46302c;
+}
+
+.border-card {
+  background: #ffffff;
+  border: 1px solid var(--peach);
+  border-radius: 14px;
+  color: var(--ink);
+  padding: 16px 20px;
+}
